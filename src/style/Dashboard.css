@@ -1,0 +1,187 @@
+*{
+    font-family: "Lexend Deca", sans-serif;;
+}
+
+
+.full-container{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    
+}
+
+.menu-container{
+    padding: 10px;
+    border: 1px solid #e2e2c0;
+    width: 20%;
+    height: 620px;
+    border-radius: 10px;
+    background-color: #CFE1B9;
+    
+}
+
+.content-container{
+    border: 1px solid #FFFDE1;
+    width: 85%;
+    height: 640px;
+    border-radius: 10px;
+    background-color: #E7F5DC;
+}
+
+.logo-container{
+    margin: 10px;
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+}
+
+.logo-container span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-item{
+    margin-top: 50px;
+    text-align: center;
+     display: flex;
+     padding: 10px;
+
+     border: 1px solid #f3f3f0;
+     background-color: #98A77c;
+     padding-bottom: 150px;
+     width: auto;
+     height: auto;   
+     border-radius: 30px;
+}
+
+
+nav ul li:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.menu-item nav ul li{
+    justify-self: center;
+    list-style: none;
+    line-height: 3;
+    gap: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.login-container{
+    position: absolute;
+    bottom: 50px;
+    justify-self: center;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome-board{
+    display: flex;
+    margin: 15px;
+    width: auto;
+    height: auto;
+    
+    border-radius: 20px;
+    padding-left: 10px;
+
+}
+.welcome h3{
+    font-size: 1.5rem;
+}
+.welcome span{
+    color: #a6f70e
+}
+.notification-icon{
+   position: absolute;
+   right: 150px;
+   top: 45px;
+}
+
+
+.count-container{
+    display: flex;
+    gap: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.files{
+   display: flex;
+     width: 200px;
+    height: 130px;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 20px solid #ffffff ;
+    border-radius: 25px;
+    background-color: #CFE1B9;
+}
+
+.task{
+    display: flex;
+     width: 200px;
+    height: 130px;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 20px solid #ffffff ;
+    border-radius: 25px;
+    background-color: #CFE1B9;
+}
+
+
+.storage{
+    display: flex;
+     width: 200px;
+    height: 130px;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 20px solid #ffffff ;
+    border-radius: 25px;
+    background-color: #CFE1B9;
+}
+
+.child1-storageicon{
+   position: relative;
+   top: 40px;
+}
+
+.child1-fileicon{
+   position: relative;
+   top: 40px;
+}
+
+
+.child1-taskicon{
+   position: relative;
+   top: 40px;
+}
+
+.slide{
+    margin: 20px;
+    display: flex;
+    width: auto;
+    height: 30px;
+    background-color: white;
+    
+
+}
+.child-slide{
+   width: 100px;
+   height: 30px;
+   background-color: #e2e2c0;
+   border-radius: 10px;
+   cursor: pointer;
+}
